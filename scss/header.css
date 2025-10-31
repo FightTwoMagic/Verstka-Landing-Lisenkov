@@ -1,0 +1,18 @@
+.play-btn {
+  position: absolute;
+  top: 630px;
+  left: 645px;
+  background-color: #06FF07;
+  color: #141414;
+}
+
+.play-btn:hover {
+  background-color: #141414;
+  color: #06FF07;
+}
+
+.nav-pos {
+  position: absolute;
+  top: 476px;
+  left: 600px;
+}/*# sourceMappingURL=header.css.map */

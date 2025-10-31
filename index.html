@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="scss/main.css">
+</head>
+    <body class = "text-light">
+        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content bg-dark-portal">
+                    <div class="modal-header">
+                        <h5 class="modal-title toxic" id="exampleModalLabel">Подумайте!</h5>
+                        <button type="button" class="close btn btn-dark border-1" data-dismiss="modal" aria-label="Close">
+                        <span class = "toxic" aria-hidden="true">x</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        Вы собираетесь перейти по ссылке на сторонний источник
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary bg-dark" data-bs-dismiss="modal">Остаться</button>
+                        <button type="button" class="btn btn-success bg-toxic text-dark " data-bs-dismiss="modal">Перейти</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <header id = "play">
+            <div class="container-fluid p-0 m-0 min-vh-100" style="background-image: url('/images/top_block/BG.png'); background-size: cover; background-position: center;">
+                <nav class="navbar pb-1 pt-0 navbar-expand-md navbar-dark nav-pos fixed-top" id="mainNav">
+                    <div class="container-fluid ms-5">
+            
+                        <button class="navbar-toggler d-none border-toxic" type="button" data-bs-toggle="collapse" 
+                                data-bs-target="#navbarNav" aria-controls="navbarNav">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="navbar-collapse" id="navbarNav">
+                            <div class="navbar-nav">
+                                <a class="btn btn-outline-light border-2 rounded-3 m-2 px-3 ms-0 fs-3" href="#trailer">Скрины</a>
+                                <a class="btn btn-outline-light border-2 rounded-3 m-2 px-3 fs-3" href="#coop">Кооператив</a>
+                                <a class="btn btn-outline-light border-2 rounded-3 m-2 px-3 fs-3" href="#support">Поддержка</a>
+                                <a class="btn btn-outline-light border-2 rounded-3 m-2 px-3 fs-3" href="#FAQ">FAQ</a>
+                                <a class="btn btn-outline-light border-2 rounded-3 m-2 px-3 me-0 fs-3" href="#form">Помощь</a>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+                 <button type="button" class="btn rounded-3 px-5 play-btn fs-1" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-custom-class="custom-tooltip mb-2" data-bs-title="После нажатия загрузка начнется автоматически">Играть</button>
+             </div>
+            <img src = "images/top_block/transition.png" class="d-block w-100 img-fluid" alt="...">
+        </header>
+
+        <section id = "trailer">
+            <div class=".bg-dark-subtle container-fluid min-vh-100 pt-5 mt-5">
+                <h1 class = "text-center title mt-5">СКРИНЫ</h1>
+                <div class="bg-dark-subtle container-fluid w-50 p-0 mx-auto border-toxic">
+                    <div id="carouselExample" class="carousel slide">
+                    <div class="carousel-inner rounded-2">
+                        <div class="carousel-item active">
+                        <img src="/images/Trailer/image1.jpg" class="d-block img-fluid w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                        <img src="/images/Trailer/image2.jpg" class="d-block img-fluid w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                        <img src="/images/Trailer/image3.jpg" class="d-block img-fluid w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                        <img src="/images/Trailer/image4.jpg" class="d-block img-fluid w-100" alt="...">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                    </div> 
+                </div>
+
+                <div class="container-fluid w-50 border-toxic p-3 my-4" style="width: 18rem;">
+                    <div class="card-body">
+                        <p class="card-text text-start">Сюжет Portal Reloaded заключается в том, что игрок просыпается от стазиса в центре развития Aperture Laboratories, и сразу отправляется на тесты включающие временные порталы.
+
+В ходе игры испытуемого (игрока) обучают использованию порталов кубов и прочих механик, попутно рассказывая о том что комплекс был разрушен, а игрок — единственный перенесший путешествие через порталы времени.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id = "coop">
+            <div class="container-fluid min-vh-100 pt-3 mt-5">
+                <h1 class = "text-center title mt-5">КООПЕРАТИВ</h1>
+                
+                <div class="container-fluid hstack w-50 p-0">
+                    <div class="container-fluid">
+                        <img src="/images/Coop/players.png" class="img-fluid" alt="...">
+                    </div>
+                    <div class="container-fluid w-50 vstack p-0">
+                        <div class="container-fluid border-toxic p-3 mx-auto mt-5">
+                            <p class="card-text text-start">Ваша команда отправляется в будущее, чтобы раздобыть важные данные, которые были утеряны во времени...</p>
+                        </div>
+                        <div class="container-fluid row align-items-end h-75 p-0 m-0 pb-2">
+                            <div class = "col p-0"><button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#exampleModal"><img src="/images/Coop/discord.png" class = "img-fluid" alt="..."></button></div>
+                            <div class = "col p-0"><button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#exampleModal"><img src="/images/Coop/steam.png" class = "img-fluid" alt="..."></button></div>
+                            <div class = "col p-0"><button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#exampleModal"><img src="/images/Coop/reddit.png" class = "img-fluid" alt="..."></button></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id = "support">
+            <div class="container-fluid min-vh-100 pt-3 mt-5">
+                <h1 class = "text-center title mt-5">Поддержка</h1>
+
+                <div class="container-fluid hstack w-50 p-0 my-4 align-items-start">
+                    <div class="container-fluid p-0 m-0 w-50">
+                        <div class="container-fluid p-3 m-0 w-75 tab-content">
+                                <!-- Boosty таб -->
+                                <div class="tab-pane fade active show" id="boostyTab" role="tabpanel">
+                                    <div class="container-fluid border-toxic p-3 ps-4">
+                                        <p class="text-start m-0">
+                                            <div class = "sub mb-2">Boosty:</div>
+                                            <ol class="m-0 ps-3">
+                                                <li>Юдин Николай</li>
+                                                <li>Харькова Кристина</li>
+                                                <li>Морозов Юрий</li>
+                                                <li>Смирнов Алексей</li>
+                                                <li>Николаев Сергей</li>
+                                                <li>Орлова Екатерина</li>
+                                                <li>...</li>
+                                            </ol>
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <!-- Ko-fi таб -->
+                                <div class="tab-pane fade" id="kofiTab" role="tabpanel">
+                                    <div class="container-fluid border-toxic p-3 ps-4">
+                                        <p class="text-start m-0">
+                                             <div class = "sub mb-2">Ko-fi:</div>
+                                            <ol class="m-0 ps-3">
+                                                <li>Петров Петр</li>
+                                                <li>Сидорова Анна</li>
+                                                <li>Харькова Кристина</li>
+                                                <li>Юдин Николай</li>
+                                                <li>Харькова Кристина</li>
+                                                <li>Морозов Юрий</li>
+                                                <li>...</li>
+                                            </ol>
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <!-- Patreon таб -->
+                                <div class="tab-pane fade" id="patreonTab" role="tabpanel">
+                                    <div class="container-fluid border-toxic p-3 ps-4">
+                                        <p class="text-start m-0">
+                                            <div class = "sub mb-2">Patreon:</div>
+                                            <ol class="m-0 ps-3">
+                                                <li>Смирнов Алексей</li>
+                                                <li>Николаев Сергей</li>
+                                                <li>Орлова Екатерина</li>
+                                                <li>Петров Петр</li>
+                                                <li>Сидорова Анна</li>
+                                                <li>Харькова Кристина</li>
+                                                <li>...</li>
+                                            </ol>
+                                        </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container-fluid w-50 vstack p-0">
+                        <div class="container-fluid h-75 p-0 pb-3 ps-3 m-0 mb-5">
+                            <img src="/images/Support/cube.png" class="img-fluid" alt="...">
+                        </div>
+                        <div class="container-fluid row align-items-end h-25 p-0 m-0" role="tablist">
+                            <div class = "col p-0"><button type="button" role="tab" class="btn btn-link p-0 m-0 active" aria-selected="true" data-bs-toggle="tab" data-bs-target="#boostyTab"><img src="/images/Support/boosty.png" class = "img-fluid w-75" alt="..."></button></div>
+                            <div class = "col p-0"><button type="button" role="tab" class="btn btn-link p-0" aria-selected="false" data-bs-toggle="tab" data-bs-target="#kofiTab"><img src="/images/Support/kofi.png" class = "img-fluid w-75" alt="..."></button></div>
+                            <div class = "col p-0"><button type="button" role="tab" class="btn btn-link p-0" aria-selected="false" data-bs-toggle="tab" data-bs-target="#patreonTab"><img src="/images/Support/patreon.png" class = "img-fluid w-75" alt="..."></button></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id = "FAQ">
+            <div class="container-fluid min-vh-100 pt-3 mt-5">
+                <h1 class = "text-center title mt-5">ОТВЕТЫ НА ВОПРОСЫ</h1>
+                <div class = "container-fluid w-50 p-0 mt-4">
+                    <div class="accordion text-light bg-transparent" id="accordionExample">
+                        <div class="accordion-item border-toxic mb-2 text-light bg-transparent">
+                            <h2 class="accordion-header text-light bg-transparent">
+                            <button class="accordion-button sub text-light bg-transparent" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                Могу ли я записать прохождение игры на видео?
+                            </button>
+                            </h2>
+                            <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                            <div class="accordion-body text-light bg-transparent">
+                                Да, конечно! Мы только приветствуем создание игрового контента и обзоров. Ваши видео помогут другим игрокам узнать об игре и разделить с вами впечатления. Мы рады, что вы хотите поделиться своим опытом прохождения.
+                            </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item text-light bg-transparent mb-2 border-toxic">
+                            <h2 class="accordion-header">
+                            <button class="accordion-button collapsed sub text-light bg-transparent" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                 Могу ли я помочь перевести игру на мой родной язык?
+                            </button>
+                            </h2>
+                            <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                            <div class="accordion-body text-light bg-transparent">
+                                Мы очень ценим такое предложение! Сообщество переводчиков играет огромную роль в том, чтобы игра стала доступна для самой широкой аудитории. Пожалуйста, свяжитесь с нами через официальный сайт или дискорд-сервер, где мы координируем усилия волонтеров.
+                            </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item border-toxic mb-2 text-light bg-transparent">
+                            <h2 class="accordion-header">
+                            <button class="accordion-button collapsed sub text-light bg-transparent" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                 Могу ли я использовать музыку из игры в моих видео?
+                            </button>
+                            </h2>
+                            <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                            <div class="accordion-body text-light bg-transparent">
+                                Да, вы можете использовать музыку из игры в своих видео на таких платформах, как YouTube или Twitch. Мы считаем, что саундтрек отлично дополнит атмосферу вашего контента. Однако, пожалуйста, убедитесь, что на ваше видео не будут поданы сторонние авторские претензии со стороны платформы.
+                            </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item border-toxic mb-2 text-light bg-transparent">
+                            <h2 class="accordion-header">
+                            <button class="accordion-button collapsed sub text-light bg-transparent" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                 Сколько времени занимает прохождение?
+                            </button>
+                            </h2>
+                            <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                Продолжительность прохождения сильно зависит от вашего стиля игры. Для того чтобы просто пройти основной сюжет, вам может понадобиться около 15-20 часов. Если же вы захотите выполнить все побочные задания, найти коллекционные предметы и достичь 100% завершения, то игра может занять у вас 30-40 часов и более.
+                            </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item border-toxic mb-2 text-light bg-transparent">
+                            <h2 class="accordion-header">
+                            <button class="accordion-button collapsed sub text-light bg-transparent" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                                 Могу ли я принять участие в разработке?
+                            </button>
+                            </h2>
+                            <div id="collapseSix" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                Мы всегда рады энтузиазму наших игроков! Лучший способ внести свой вклад — это делиться конструктивными отзывами и идеями на наших официальных форумах. Иногда мы также проводим набор в команду тестировщиков, следите за нашими новостями в социальных сетях, чтобы не упустить такую возможность.
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id = "form">
+            <div class="container-fluid min-vh-100 pt-3 mt-5">
+                <h1 class = "text-center title mt-5">ХОТИТЕ ПОМОЧЬ?</h1>
+                <h2 class = "text-center main">Сообщите о баге</h2>
+                <div class = "container-fluid border-toxic w-50 mt-4 p-0">
+                    <form class= "hstack p-3">
+                        <div class = "container-fluid vstack w-75">
+                            <div class = "container-fluid row align-items-start w-75 p-0 ms-2">
+                            Оставьте почту для обратной связи
+                            </div>
+                            <div class = "container-fluid p-0 w-50 row align-items-start my-2 ms-2 mb-4">
+                                <input type="email" class="form-control border-toxic bg-transparent text-light" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="example@mail.com" required>
+                            </div>
+                            <div div class = "container-fluid row align-items-start w-75 p-0 ms-2">
+                                Когда произошла проблема?
+                            </div>
+                            <div class = "container-fluid p-0 w-50 row align-items-start my-2 ms-2 mb-4">
+                                <input type="date" class="form-control border-toxic bg-transparent text-light bg-transparent" id="exampleInputDate1" aria-describedby="dateHelp" required>
+                            </div>
+                            <div div class = "container-fluid w-100">
+                                Что случилось?
+                            </div>
+                            <div class = "container-fluid p-0 w-100 ms-2 my-2">
+                                <textarea class="form-control border-toxic bg-transparent text-light" id="autoResizeTextarea" rows="5" placeholder="Опишите ситуацию..." required></textarea>
+                            </div>
+                        </div>
+                        <div class = "container-fluid w-25 vstack justify-content-end">
+                             <div class = "container-fluid p-0 m-0 col-4 align-self-end" style="width: 3rem;">
+                                <button type="submit" class="btn bg-transparent p-0 m-0"><img src="/images/Form/button.png" class ="img-fluid w-100" alt="..."></button>
+                             </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <div class="position-relative container-fluid vh-50 p-0 row align-items-end pb-5" style="background-image: url('/images/Footer/BG.png'); background-size: cover; background-position: center top; min-height: 50vh;">
+                <div class="bg-white container-fluid w-50 p-4 mx-auto text-dark rounded-3">
+                    <div class = "row mb-5">
+                        <div class = "container-fluid col w-50">
+                            <div class = "sub">Бизнесс предложения</div>
+                            <div>Писать на:    @businnesportalreloaded.com</div>
+                        </div>
+                        <div class = "container-fluid col align-self-start w-50">
+                            <div class = "sub text-end">Андрей Лисенков</div>
+                            <div class = "text-end">Автор страницы</div>
+                        </div>
+                    </div>
+                    <div class = "row mt-5">
+                        <div class = "container-fluid col w-50">
+                            <div class = "sub">Помощь и поддержка</div>
+                            <div>Писать на:    @supportportalreloaded.com</div>
+                        </div>
+                        <div class = "container-fluid align-self-end col w-50">
+                            <div class = "text-end"><a href ="#">Условия и положения</a></div>
+                            <div class = "text-end"><a href ="#">Политика конфиденциальности</a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+        <script>
+            var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+            var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+            return new bootstrap.Tooltip(tooltipTriggerEl)
+            })
+
+            document.addEventListener('DOMContentLoaded', function() {
+                const navbar = document.getElementById('mainNav');
+                const navbarNav = document.getElementById('navbarNav');
+                const screenHeight = window.outerHeight - window.outerHeight * 0.1;
+                
+                window.addEventListener('scroll', function() {
+                    if (window.scrollY > screenHeight) {
+                        navbarNav.classList.add('flex-column');
+                        navbar.classList.remove('nav-pos');
+                        navbar.classList.add('bg-dark-portal');
+                    } else {
+                        navbarNav.classList.remove('flex-column');
+                        navbar.classList.add('nav-pos');
+                        navbar.classList.remove('bg-dark-portal');
+                    }
+                });
+            });
+        </script>
+    </body>
+</html>

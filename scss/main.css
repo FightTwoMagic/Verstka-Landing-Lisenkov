@@ -1,0 +1,79 @@
+.play-btn {
+  position: absolute;
+  top: 630px;
+  left: 645px;
+  background-color: #06FF07;
+  color: #141414;
+}
+
+.play-btn:hover {
+  background-color: #141414;
+  color: #06FF07;
+}
+
+.nav-pos {
+  position: absolute;
+  top: 476px;
+  left: 600px;
+}
+
+body {
+  background-color: #141414;
+  font-family: "JetBrains Mono light";
+}
+
+.main {
+  font-size: 43px;
+}
+
+.sub {
+  font-size: 27px;
+}
+
+.title {
+  font-family: "JetBrains Mono thin";
+  font-size: 112px;
+}
+
+.action {
+  font-family: "JetBrains Mono medium";
+  font-size: 70px;
+}
+
+.border-toxic {
+  border: 3px solid #06FF07 !important;
+  border-radius: 0.5em;
+}
+
+.toxic {
+  color: #06FF07;
+}
+
+.bg-toxic {
+  background-color: #06FF07;
+}
+
+.bg-dark-portal {
+  background-color: #141414;
+}
+
+.form-control::-moz-placeholder {
+  color: gray;
+}
+
+.form-control::placeholder {
+  color: gray;
+}
+
+@font-face {
+  font-family: "JetBrains Mono light";
+  src: url(/fonts/ttf/JetBrainsMono-Light.ttf) format("truetype");
+}
+@font-face {
+  font-family: "JetBrains Mono medium";
+  src: url(/fonts/ttf/JetBrainsMono-Medium.ttf) format("truetype");
+}
+@font-face {
+  font-family: "JetBrains Mono thin";
+  src: url(/fonts/ttf/JetBrainsMono-Thin.ttf) format("truetype");
+}/*# sourceMappingURL=main.css.map */
